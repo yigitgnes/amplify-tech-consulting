@@ -95,7 +95,7 @@
 }
 .projects{
     margin-left: 100px;
-    flex-direction: row;
+    flex-direction: column;
 }
 .box {
     height: 100px;
@@ -121,5 +121,5 @@
     margin-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
-    background-color: #b9c8e2;
+    backdrop-filter: blur(8px) saturate(100%);
 }

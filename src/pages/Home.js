@@ -14,9 +14,11 @@ function Home() {
                     <button className="contactButton"> Contact Now</button>
                 </Link>
             </div>
+
             <div className={"projects"}>
+
                 <div className={"box"} style={{backgroundImage: `url(${Nestin})`}}>
-                    <h2 className={"projectTitle"}>Project 1</h2>
+                    <h2 className={"projectTitle"}>Nestin</h2>
                     <p className={"text"}>In this example, we're setting the .projectsContainer to be a flex container
                         with a column direction and centered alignment. We also set some margins to separate it from the
                         header.</p>
@@ -39,6 +41,7 @@ function Home() {
                     <p>In this example, we're setting the .projectsContainer to be a flex container with a column
                         direction and centered alignment. We also set some margins to separate it from the header.</p>
                 </div>
+
             </div>
         </div>
     )
