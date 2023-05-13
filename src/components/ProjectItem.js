@@ -3,7 +3,7 @@ import React from "react"
 function ProjectItem({logo, image, description}) {
     return (
         <div className={"box"} style={{backgroundImage: `url(${image})`}}>
-            <h2 className={"projectTitle"}>{logo}</h2>
+            <img className={"projectImage"} src={logo}/>
             <p className={"text"}>{description}</p>
         </div>
     )

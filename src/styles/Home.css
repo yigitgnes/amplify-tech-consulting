@@ -96,28 +96,30 @@
 .projects {
     margin-left: 100px;
     flex-direction: column;
+    height: calc(100vh - 170px);;
 }
 
 .projectList {
-    width: 200%;
+    width: 100%;
+    height: auto;
+    padding: 10px 10px;
 }
 
 .box {
-    height: 100px;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
     position: relative;
-    max-width: 600px;
-    padding: 50px;
+    max-width: 800px;
+    padding: 10px;
     background: rgba(255, 255, 255, .2);
     box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
     background-size: cover;
 }
 
-.projectTitle {
-    margin: 0 0 20px;
-    padding: 0;
-    font-size: 24px;
-    text-transform: uppercase;
+.projectImage{
+    position: relative;
+    width: 25%;
+    top: 0;
+    left: 0;
 }
 
 .text {
@@ -128,5 +130,7 @@
     margin-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
-    backdrop-filter: blur(8px) saturate(100%);
+    backdrop-filter: blur(5px) saturate(70%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* add a solid background color */
 }
